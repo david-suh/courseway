@@ -1,0 +1,56 @@
+.menu {
+  float: right;
+  background-color: rgba(240, 192, 192, 0.9);
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu li {
+  display: inline-block;
+}
+.menu a {
+  text-decoration: none;
+}
+
+.link {
+  color: #fff;
+}
+.link:hover {
+  color: #000;
+}
+
+.about__title {
+  color: #0059ff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+.about__text {
+  font-family: "lato", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.item-1, .item-2, .item-3 {
+  text-decoration: underline;
+}
+.item-1:hover, .item-2:hover, .item-3:hover {
+  cursor: pointer;
+  color: #0059ff;
+  text-decoration: none;
+}
+
+.item-1 {
+  color: #fff;
+}
+
+.item-2 {
+  color: #ccc;
+}
+
+.item-3 {
+  color: #000;
+}
