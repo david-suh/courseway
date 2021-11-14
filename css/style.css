@@ -26,6 +26,54 @@ a {
   min-height: 700px;
   background-image: url(/img/mycourseway.jpg);
   background-size: cover;
+  position: relative;
+}
+
+.main-screen__content-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.main-screen__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.main-screen__smaller {
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 35px;
+}
+
+.main-screen__form {
+  position: absolute;
+  bottom: 60px;
 }
 
 .header {
@@ -79,6 +127,16 @@ a {
   font-weight: 300;
 }
 
+.logo {
+  font-family: 'Lato', sans-serif;
+  font-size: 52px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 78%;
+  margin-left: 215px;
+  margin-right: 75px;
+}
+
 .current {
   position: relative;
 }
@@ -91,67 +149,6 @@ a {
   width: calc(100% - 8px);
   height: 1px;
   background-color: #fff;
-}
-
-.logo {
-  font-family: 'Lato', sans-serif;
-  font-size: 52px;
-  font-weight: 300;
-  color: #fff;
-  line-height: 78%;
-  margin-left: 215px;
-  margin-right: 75px;
-}
-
-.main-screen {
-  position: relative;
-}
-
-.main-screen__content-in {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 10px;
-}
-
-.main-screen__title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 60px;
-  font-weight: 700;
-  color: #fff;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-}
-
-.main-screen__smaller {
-  font-size: 35px;
-  font-weight: 600;
-  margin-top: 35px;
-}
-
-.main-screen__form {
-  position: absolute;
-  bottom: 60px;
 }
 
 .form {
@@ -200,11 +197,16 @@ a {
 }
 
 .form__button {
+  cursor: pointer;
   padding: 15px 105px;
   border: 1px solid #fff;
   background-color: #ba271f;
   color: #fff;
   font-size: 21px;
+}
+
+.form__button:hover {
+  cursor: pointer;
 }
 
 .benefits {
@@ -445,6 +447,10 @@ a {
   background-repeat: no-repeat;
   color: inherit;
   font-size: 0;
+}
+
+.slick-arrow:hover {
+  cursor: pointer;
 }
 
 .slick-prev {
@@ -1193,3 +1199,4 @@ a {
     margin-right: 0;
   }
 }
+/*# sourceMappingURL=style.css.map */
